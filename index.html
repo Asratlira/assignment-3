@@ -33,6 +33,7 @@
           extend: {
             colors: {
               button: "rgb(171, 239, 95)",
+              bgcolor: "rgb(255, 255, 255)",
             },
             fontFamily: {
               Manrope: "Manrope",
@@ -46,6 +47,148 @@
     </script>
   </head>
   <body class="font-Manrope">
-    <button class="btn bg-button">hi i am lira</button>
+    <header class="py-3">
+      <!-- nav section -->
+      <nav>
+        <div class="navbar bg-base-100 w-11/12 mx-auto">
+          <div class="navbar-start gap-2">
+            <a class="text-3xl font-bold">
+              <i
+                class="fa-solid fa-arrow-right -rotate-45 bg-button rounded-full p-2"
+              ></i
+              >Rinterio</a
+            >
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+              <li><a>Home</a></li>
+              <li><a>Services</a></li>
+              <li><a>Portfolio</a></li>
+              <li><a>Blogs</a></li>
+              <li><a>Contact Us</a></li>
+            </ul>
+          </div>
+
+          <div class="navbar-end">
+            <div class="flex items-center lg:gap-4">
+              <button>
+                <i
+                  class="fa-solid fa-magnifying-glass bg-gray-50 rounded-full p-2"
+                ></i>
+              </button>
+              <button>
+                <i
+                  class="fa-solid fa-cart-shopping bg-gray-100 rounded-full p-2"
+                ></i>
+              </button>
+
+              <div>
+                <a
+                  class="btn bg-button text-xs lg:text-medium rounded-md lg:rounded-2xl flex flex-col px-0 lg:px-2"
+                >
+                  <i
+                    class="fa-solid fa-arrow-right -rotate-45 bg-black rounded-full p-2 text-white"
+                  ></i
+                  >Book Consult</a
+                >
+              </div>
+            </div>
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <i class="fa-solid fa-bars"></i>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow right-0"
+              >
+                <li><a>Home</a></li>
+                <li><a>Services</a></li>
+                <li><a>Portfolio</a></li>
+                <li><a>Blogs</a></li>
+                <li><a>Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="w-11/12 mx-auto">
+        <div class="">
+          <div class="flex justify-center items-center">
+            <img src="./assets/banner.png" alt="" />
+          </div>
+          <div class="space-y-6 text-center">
+            <h1 class="text-6xl font-bold">
+              A barn house of this design has a <br />striking appearance
+            </h1>
+            <p class="font-semibold text-lg text-[rgb(73, 73, 73)] text-center">
+              Barn homes have come a long way from their traditional countryside
+              origin to the chic,<br />
+              contemporary structures you now see gracing architectural designs.
+            </p>
+            <div class="w-44 mx-auto">
+              <a
+                class="btn bg-green-100 font-bold text-xl rounded-md lg:rounded-2xl flex flex-col px-0 lg:px-2"
+              >
+                <i
+                  class="fa-solid fa-arrow-right -rotate-45 bg-button rounded-full p-2 text-white"
+                ></i
+                >View Details</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="bg-stone-100 mt-24">
+        <div class="w-11/12 mx-auto py-9">
+          <img class="rotate-12" src="./assets/Vector.png" alt="" />
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-20">
+            <div>
+              <div class="space-x-3">
+                <button class="btn bg-white rounded-2xl py-3">
+                  <i class="fa-solid fa-arrow-right"></i>About Us
+                </button>
+              </div>
+              <h2 class="text-5xl font-bold py-7">
+                We design thoughtful, liveable spaces
+              </h2>
+              <p class="font-semibold text-lg">
+                This subsection will explore how barn homes have evolved in
+                contemporary architecture and why they are an excellent choice
+                for family living.
+              </p>
+              <div class="flex bg-white p-4 mt-4 gap-3 rounded-lg">
+                <div>
+                  <img src="./assets/commercial.png" alt="" />
+                </div>
+                <div>
+                  <h3 class="text-xl">Comercial</h3>
+                  <p class="w-2/3">
+                    One of the defining features of barn homes is their
+                    adaptability. With ample open space
+                  </p>
+                </div>
+              </div>
+              <div class="flex bg-white p-4 mt-4 gap-3 rounded-lg">
+                <div>
+                  <img src="./assets/residential.png" alt="" />
+                </div>
+                <div>
+                  <h3 class="text-xl">Comercial</h3>
+                  <p class="w-2/3">
+                    One of the defining features of barn homes is their
+                    adaptability. With ample open space
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <img src="./assets/Rectangle.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
